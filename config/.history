@@ -1,0 +1,254 @@
+vagrant
+vagrant -v
+C:\Debi-Data\DXC\DevOps\vagrant\Ubuntu
+cd C:\Debi-Data\DXC\DevOps\vagrant\Ubuntu
+pwd
+vagrant box add ubuntu/trusty64
+vagrant init ubuntu/trusty64
+cd Vagrantfile
+vagrant ssh
+vagrant destroy
+rm -f Vagrantfile 
+vagrant init
+vagrant up
+vagrant status
+vagrant ssh centos-agent
+vagrant ssh ubuntu-agent
+vagrant ssh puppet-agent-centos
+vagrant ssh puppet-agent-ubuntu
+vi Vagrantfile 
+vagrant ssh-config
+ssh vagrant@192.168.33.10
+vagrant puppetmaster
+ls -lrt
+vagrant ssh puppetmaster
+exit
+cd ..\vagrant\Ubuntu\
+vagrant status
+vagrant ssh puppet-agent-centos
+logout
+exit
+cd ..\vagrant\Ubuntu\
+vagrnat ssh puppet-agent-ubuntu
+vagrant ssh puppet-agent-ubuntu
+exit
+exit
+cd kubernetes\vagrant-provisioning\
+vagrant status
+vagrant ssh kworker1
+cd ..\vagrant\Ubuntu\
+vagrnat ssh puppet-agent-ubuntu
+vagrant ssh puppet-agent-ubuntu
+exit
+exit
+vagrant ssh kworker1
+ls -lrt
+cd kubernetes\vagrant-provisioning\
+vagrant status
+vagrant ssh kmaster
+vagrant --help
+vagrant up
+vagrant destroy
+cd kubernetes\vagrant-provisioning\
+vagrant ssh kmaster
+cd kubernetes\vagrant-provisioning\
+vagrant ssh kworker1
+cd kubernetes\vagrant-provisioning\
+vagrant ssh kworker2
+vagrant ssh kmaster
+vagrant --help
+vagrant up
+vagrant destroy
+cd kubernetes\vagrant-provisioning\
+vagrant ssh kmaster
+cd kubernetes\vagrant-provisioning\
+vagrant ssh kworker2
+cd kubernetes\vagrant-provisioning\
+cd ..
+cd yamls\
+cd rancher\
+vi docker-compose.yml 
+cd ../
+cd vagrant-provisioning\
+ls -lrt
+vagarnt status
+vagrant status
+vagrant ssh kworker1
+exit
+vagrant ssh kworker1
+cd kubernetes\vagrant-provisioning\
+vagrant ssh kworker2
+exit
+cd kubernetes\vagrant-provisioning\
+vagrant status
+vagrant ssh kworker1
+cd kubernetes\vagrant-provisioning\
+vagrant ssh kworker2
+vagrant ssh kworker1
+cd kubernetes\vagrant-provisioning\
+vagrant ssh kworker2
+vagrant destory
+vagrant up
+vagrant destroy
+cd kubernetes\vagrant-provisioning\
+cd kubernetes\vagrant-provisioning\
+vagrant ssh kworker1
+vagrant ssh kworker2
+cd kubernetes\vagrant-provisioning\
+vagrant destroy
+vagrant status
+vagrant up
+vagrant ssh kmaster
+exit
+cd kubernetes\vagrant-provisioning\
+vagrnat ssh kworker1
+vagrant ssh kworker1
+exit
+cd kubernetes\vagrant-provisioning\
+vagrant destroy
+exit
+vagrant destroy
+cd kubernetes\vagrant-provisioning\
+vagrant up
+vagrant status
+vagrant ssh kmaster
+exit
+cd vagrant\
+cd vagrantfiles\ubuntu18\
+ls -lrt
+vagrant ssh
+exit
+vagrant status
+vagrant ssh kmaster
+cd vagrant\
+cd vagrantfiles\
+cd ubuntu18\
+ls
+ls -lrt
+vagrant up
+vagrnat ssh
+vagrant ssh
+exit
+cd C:\Debi-Data\DXC\Software\minishift-1.34.2-windows-amd64\minishift-1.34.2-windows-amd64
+dir
+minishift.exe start --vm-driver virtualbox
+cd ubuntu18\
+vagrnat ssh
+vagrant ssh
+exit
+cd C:\Debi-Data\DXC\Software\minishift-1.34.2-windows-amd64\minishift-1.34.2-windows-amd64
+dir
+minishift.exe start --vm-driver virtualbox
+cd kubernetes\
+ls
+cd vagrant-provisioning\
+vagrant up
+cd C:\Users\dmohanty5\VirtualBox VMs\
+rm -rf kmaster\*
+rm -rf kmaster\
+cd -
+cd 
+cd ../../../../
+pwd
+ls -lrt
+ls -lrt
+cd kubernetes\vagrant-provisioning\
+vagrant status
+vagrant ssh kmaster
+pwd
+cd kubernetes\vagrant-provisioning\
+vagrant up
+ls -lrt
+vi Vagrantfile
+vagrnat ssh kmaster
+vagrant ssh kmaster
+vagrant destory
+vagrant destory 
+vagrant down
+vagrant destory -h
+vagrant status
+vagrant suspend
+vagrnat destroy
+vagrant destroy
+cd kubernetes\vagrant-provisioning\
+vagrant ssh kamster
+vagrant ssh kmaster
+cd kubernetes\vagrant-provisioning\
+vagrant up
+vagrant status
+vagrant ssh kmaster
+exit
+vagrant down
+vagrant destory -h
+vagrant status
+vagrant suspend
+vagrnat destroy
+vagrant destroy
+vagrant ssh kamster
+vagrant ssh kmaster
+mkdir ~/.kube
+cd ~
+cd 
+cd -
+cd ../../
+mkdir .kube
+ls -lrt
+ls -la
+echo $HOME
+pwd
+cd kubernetes\vagrant-provisioning\
+scp root@kmaster.example.com:/etc/kubernetes/admin.conf C:\Debi-Data\DXC\DevOps\cmder/.kube/config
+scp
+exit
+mkdir .kube
+ls -la
+echo $HOME
+pwd
+scp root@kmaster.example.com:/etc/kubernetes/admin.conf C:\Debi-Data\DXC\DevOps\cmder/.kube/config
+scp
+cd vagrant\
+cd vendor\
+cd ..
+git clone https://github.com/justmeandopensource/elk.git
+cd kubernetes\vagrant-provisioning\
+vagrant 
+vagrant destroy
+cd ..\..\elk\
+ls
+cd vagrant-provisioning\
+ls -lrt
+vagrant up
+yum 
+vagrant status
+apt
+yum install -y tmux
+apt-get install -y tmux
+vagrant ssh server
+tmux
+exit
+cd kubernetes\vagrant-provisioning\
+vagrant ssh kworker1
+cd kubernetes\vagrant-provisioning\
+vagrant up
+vagrant ssh kmaster
+cd kubernetes\vagrant-provisioning\
+vagrant up
+vagrant ssh kmaster
+cd kubernetes\vagrant-provisioning\
+vagrant up
+vagrant ssh kmaster
+cd kubernetes\vagrant-provisioning\
+vagrant up
+vagrant ssh kmaster
+cd .git\
+ls -lrt
+clear
+cd ..
+git
+git stash
+git logs
+git --help
+git log
+git status
+touch .gitignore
+cat > .gitignore
